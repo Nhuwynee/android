@@ -52,7 +52,7 @@ public class RegisterActivity extends AppCompatActivity {
             String confirmPassword = etConfirmPassword.getText().toString();
 
             if (password.equals(confirmPassword)) {
-                showDialog("Đăng ký thành công", "Lưu Ngọc Yến Như 22115053122128");
+                showDialog("Đăng nhập thành công", "Lưu Ngọc Yến Như 22115053122128\n" + "\nUsername: " + username + "\nEmail: " + email + "\nPassword: " + password);
 
             } else {
                 Toast.makeText(RegisterActivity.this, "Mật khẩu xác nhận không khớp!", Toast.LENGTH_SHORT).show();

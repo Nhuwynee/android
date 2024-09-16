@@ -52,8 +52,8 @@ public class LoginActivity extends AppCompatActivity {
             String email = etEmailLogin.getText().toString();
             String password = etPasswordLogin.getText().toString();
 
-            if (email.equals("yennhu810@gmail.com") && password.equals("123456")) {
-                showDialog("Đăng nhập thành công", "Lưu Ngọc Yến Như 22115053122128");
+            if (email.equals("yennhu810@gmail.com") && password.equals("123")) {
+                showDialog("Đăng nhập thành công", "Lưu Ngọc Yến Như 22115053122128\n" + "\nEmail: " + email + "\nPassword: " + password);
             } else {
                 Toast.makeText(LoginActivity.this, "Email hoặc mật khẩu sai!", Toast.LENGTH_SHORT).show();
             }
