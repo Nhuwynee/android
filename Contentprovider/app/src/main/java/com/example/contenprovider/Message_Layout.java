@@ -16,7 +16,7 @@ import androidx.core.content.ContextCompat;
 import java.util.ArrayList;
 
 import Model.Message;
-public class Message_Layout extends AppCompatActivity {
+public class Message_Layout extends AppCompatActivity { // Thay đổi thành AppCompatActivity
     private final int REQUEST_SMS_ASK_PERMISSIONS = 1002;
     ListView Messagelv;
     ArrayList<Message> listMessage;
